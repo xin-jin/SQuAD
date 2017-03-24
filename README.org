@@ -1,0 +1,19 @@
+#+OPTIONS: toc:nil
+#+TITLE: Dynamic Coattention Networks for SQuAD Question Answering System
+
+This is a tensorflow (Python2 with Tensorflow 0.12.1) implementation of a variant of the dynamic coattention networks for the question answering system based on the SQuAD dataset.
+
+* Download Dataset
+#+BEGIN_SRC sh
+  sh get_started.sh
+  python2 qa_data.py --glove_dim [dim]
+#+END_SRC
+~[dim]~ denotes the GloVe word embedding size, and can be 50, 100, 200, or 300. They have been pretrained on Wikipedia 2014 and Gigaword 5, with a vocabulary size of 400k.
+
+* Training
+#+BEGIN_SRC 
+python2 train.py
+#+END_SRC
+
+* Generate Answers
+~qa_answer.py~ is used to generate answers from a trained model. It will take a JSON file as input and output a JSON file containing the answers. The format of JSON file can be seen in the downloaded dataset.
