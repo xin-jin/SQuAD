@@ -1,0 +1,11 @@
+# emacs autosave files
+*~
+\#*#
+BROWSE
+.dir-locals.el
+GTAGS
+GRTAGS
+GPATH
+*.o
+*.in
+README.html
