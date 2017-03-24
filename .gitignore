@@ -9,3 +9,4 @@ GPATH
 *.o
 *.in
 README.html
+*.pyc
