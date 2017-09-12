@@ -1,7 +1,7 @@
 #+OPTIONS: toc:nil
 #+TITLE: Dynamic Coattention Networks for SQuAD Question Answering System
 
-This is a tensorflow (Python2 with Tensorflow 0.12.1) implementation of a variant of the dynamic coattention networks for the question answering system based on the SQuAD dataset.
+This is a tensorflow (Python2 with Tensorflow 0.12.1) implementation of a variant of the dynamic coattention networks for the question answering system based on the SQuAD dataset. Here is the [[https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2762061.pdf][report]].
 
 * Download Dataset
 #+BEGIN_SRC sh
